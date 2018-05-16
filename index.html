@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simulador $$$</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="loginBox" >
+    <img src="picture\logo.png" class="logo" width="150" height="100">
+    <h1>NOMBRE DE LA EMPRESA</h1>
+  </div>
+
+  <div class="container">
+    <form action="calcular.php">
+      <div>
+        <h3 class="subtitulos"> Datos Personales</h3> Nombre: <input type="text" name="" value=""> Cédula de Ciudadania: <input type="text" name="">
+      </div>
+      <hr>
+
+      <div class="form-input">
+        <h3 class="subtitulos">Datos del Prestamo a Generar</h3> Valor del Prestamo: $ <input type="text-align" name="" id="prestamo" value="10000000"> .Cop <br><br> Plazo:
+        <select class="form-control" name="plazo">
+            <option value="2"> 2 años </option>
+            <option value="3"> 3 años </option>
+            <option value="4"> 4 años </option>
+            <option value="5"> 5 años </option>
+            <option value="6"> 6 años </option>
+          </select> *<em>El plazo del prestamo se realizara a partir de 2 años hasta los 6 años.</em></h5>
+        </p>
+      </div>
+
+
+      <section id="opciones">
+        <div class="">
+          <fieldset>
+            <legend> <strong>Periocidad:</strong></legend>
+            <input type="radio" name="Periocidad" value="m">Mensual
+            <input type="radio" name="Periocidad" value="t">Trimestral
+            <input type="radio" name="Periocidad" value="s">Semestral
+          </fieldset>
+        </div>
+      </section>
+
+      <section id="opciones">
+        <div>
+          <fieldset>
+            <legend> <strong> Tasas de Interes </strong> </legend>
+            <p>se debe escribir . (puntooo!)</p>
+            <label> Efectivo Anual:  <input type="text" name="ea" value="" id="ea" > % </label><br>
+            <label> Nominal Anual: <input type="text" name="" value="" id="na"> %  </label> <br>
+            <label> Periodico Vencido:  <input type="text" name="" value="" id="pv"> % </label> <br>
+          </fieldset>
+        </div>
+
+      </section>
+
+      <button type="submit" name="button">Ingresar</button>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
